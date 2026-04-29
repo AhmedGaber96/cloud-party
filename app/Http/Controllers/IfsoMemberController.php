@@ -93,7 +93,7 @@ class IfsoMemberController extends Controller
             ]);
 
             // 5. Assign role
-            $user->assignRole('member');
+            //$user->assignRole('member');
 
             // add user id 
             $data['user_id'] = $user->id;
